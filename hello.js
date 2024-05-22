@@ -1,6 +1,4 @@
-function hello() {
-	// TODO: change this string so that your program prints "Hello world!" 
-	return "Hello!";
-}
- 
+const { hello } = require("./hello.1");
+
 module.exports = hello;
+
